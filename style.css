@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.calculette{
+display: grid;
+grid-template-columns: repeat(10,1fr);
+grid-template-rows: repeat(10,1fr);
+
+    width: 20vw;
+    height: 80vh;
+    border: solid black 2px;
+    margin: 10px;
+    
+
+    
+
+}
+
+.ecran{
+    background-color: aqua;
+
+
+    grid-column: 2/10;
+    grid-row: 2/2;
+}
+.ecran p {
+    text-align: center;
+}
