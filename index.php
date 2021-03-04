@@ -14,7 +14,6 @@
         <div class="calculette">
             <div class="ecran">
                 <p id="ecranUtilisateur">
-                    hello
                 </p>
             </div>
             <div class="btn" id="i1">
